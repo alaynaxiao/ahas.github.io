@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
-<head>
+<html lang="zh-TW"><head>
     <!--Global site tag (gtag.js) - Google Analytics-->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165278227-1"></script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-165278227-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -11,32 +10,32 @@
       gtag('config', 'UA-165278227-1');
     </script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
-    <meta name="author" content="AlexWong" >
-    <meta name="robots" content="index, follow" >
-    <meta name="description" content="貓神健檢小幫手是巴哈姆特穿越時空的貓哈拉版用隊伍健檢表格產生器, 隊伍健檢集中串健檢用表格快速建立小幫手。" >
-    <meta name="keywords" content="穿越時空的貓, 隊伍健檢, 健檢, 健檢表格, 貓神, 乙葉大人, 貓神健檢小幫手" >
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="author" content="AlexWong">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="貓神健檢小幫手是巴哈姆特穿越時空的貓哈拉版用隊伍健檢表格產生器, 隊伍健檢集中串健檢用表格快速建立小幫手。">
+    <meta name="keywords" content="穿越時空的貓, 隊伍健檢, 健檢, 健檢表格, 貓神, 乙葉大人, 貓神健檢小幫手">
 
     <!-- meta og -->
-    <meta property="og:description" content="貓神健檢小幫手是巴哈姆特穿越時空的貓哈拉版用隊伍健檢表格產生器, 隊伍健檢集中串健檢用表格快速建立小幫手。" />
-    <meta property="og:locale" content="zh_TW" />
-    <meta property="og:site_name" content="貓神健檢小幫手 - 表格產生器" />
-    <meta property="og:title" content="貓神健檢小幫手 - 表格產生器" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://otoha-helper.github.io/another-eden-team-picker/" />
-    <meta property="og:image" content="https://otoha-helper.github.io/another-eden-team-picker/images/otoha_icon.png" />
-    <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:image:width" content="380" />
-    <meta property="og:image:height" content="380" />
-    <meta property="og:image:alt" content="乙葉" />
+    <meta property="og:description" content="貓神健檢小幫手是巴哈姆特穿越時空的貓哈拉版用隊伍健檢表格產生器, 隊伍健檢集中串健檢用表格快速建立小幫手。">
+    <meta property="og:locale" content="zh_TW">
+    <meta property="og:site_name" content="貓神健檢小幫手 - 表格產生器">
+    <meta property="og:title" content="貓神健檢小幫手 - 表格產生器">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://otoha-helper.github.io/another-eden-team-picker/">
+    <meta property="og:image" content="https://otoha-helper.github.io/another-eden-team-picker/images/otoha_icon.png">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="380">
+    <meta property="og:image:height" content="380">
+    <meta property="og:image:alt" content="乙葉">
 
     <!-- set to no cache -->
-    <meta http-equiv="cache-control" content="no-cache" />
-    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" href="./images/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./images/favicon/favicon.ico" type="image/x-icon">
 
     <!--<link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">-->
     <!--<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">-->
@@ -89,7 +88,7 @@
     <!--[if lt IE 9]><link href="./style/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" ><![endif]-->
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;500;700;900&amp;display=swap" rel="stylesheet">
 
     <!-- In page Script -->
     <script type="text/javascript">
@@ -143,7 +142,9 @@
             <div class="container-fluid">
                 <div class="row justify-content-center mb-5">
 
-                    <div class="" id="toolbar">
+                    
+                    <div class="bootstrap-table bootstrap4">
+      <div class="fixed-table-toolbar"><div class="bs-bars float-right"><div class="" id="toolbar">
                         <div class="btn-group btn-group-sm" role="group" aria-label="select order type">
                             <button type="button" class="btn active-switch active" id="orderByTime">
                                 <i class="fas fa-clock active-show"></i>
@@ -164,8 +165,329 @@
                                 <i class="far fa-square"></i> 清除已選
                             </button>
                         </div>
-                    </div>
-                    <table id="char_table" class="table table-bordered table-striped table-sm table-borderless"></table>
+                    </div></div></div>
+      
+      <div class="fixed-table-container" style="padding-bottom: 0px;">
+      <div class="fixed-table-header" style="display: none;"><table></table></div>
+      <div class="fixed-table-body">
+      <div class="fixed-table-loading table table-bordered table-striped table-sm table-borderless" style="top: 35.59375px; display: none;">
+      <span class="loading-wrap">
+      <span class="loading-text">正在努力地載入牛棚，請稍候</span>
+      <span class="animation-wrap"><span class="animation-dot"></span></span>
+      </span>
+      </div>
+      <table id="char_table" class="table table-bordered table-striped table-sm table-borderless"><thead class="thead-dark"><tr><th style="width: 5px; " data-field="element"><div class="th-inner "></div><div class="fht-cell"></div></th><th style="width: 230px; " data-field="name"><div class="th-inner ">角色</div><div class="fht-cell"></div></th><th style="text-align: center; width: 40px; " data-field="had4"><div class="th-inner ">☆4</div><div class="fht-cell"></div></th><th style="text-align: center; width: 40px; " data-field="had5"><div class="th-inner ">★5</div><div class="fht-cell"></div></th><th style="text-align: center; width: 40px; " data-field="hadas"><div class="th-inner ">AS</div><div class="fht-cell"></div></th><th style="text-align: center; width: 40px; " data-field="hades"><div class="th-inner ">ES</div><div class="fht-cell"></div></th><th style="width: 60px; " data-field="lightShadow"><div class="th-inner ">天冥</div><div class="fht-cell"></div></th></tr></thead><tbody><tr data-index="0" data-uniqueid="1"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Lokido.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">洛基德</h5>
+狗頭/農藥  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="1" data-uniqueid="2"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Mighty.jpg" class="icon" width="50">
+  <img src="./images/characters/as/Mighty.jpg" class="icon image-as element-animation" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">麥提</h5>
+水法/司夢  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:red"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="16" type="number" min="0" max="255"></td></tr><tr data-index="2" data-uniqueid="3"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Toova.jpg" class="icon" width="50">
+  <img src="./images/characters/as/Toova.jpg" class="icon image-as element-animation" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">杜娃</h5>
+地法/新娘  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:red"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="16" type="number" min="0" max="255"></td></tr><tr data-index="3" data-uniqueid="4"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Shion.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">紫央</h5>
+刀哥  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="4" data-uniqueid="5"><td style="background-color: #909090; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Mariel.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">瑪莉艾爾</h5>
+瑪莉  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="4" type="number" min="0" max="255"></td></tr><tr data-index="5" data-uniqueid="6"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Suzette.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">蘇賽特</h5>
+中二/蝶火  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="4" type="number" min="0" max="255"></td></tr><tr data-index="6" data-uniqueid="7"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Anabel.jpg" class="icon" width="50">
+  <img src="./images/characters/as/Anabel.jpg" class="icon image-as element-animation" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">安娜貝爾</h5>
+安娜  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:red"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="32" type="number" min="0" max="255"></td></tr><tr data-index="7" data-uniqueid="8"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Laclair.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">拉克萊兒</h5>
+水弓/二哈  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="4" type="number" min="0" max="255"></td></tr><tr data-index="8" data-uniqueid="9"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Isuka.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">伊絲卡</h5>
+會長/黑絲會長  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="9" data-uniqueid="10"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Yuna.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">由奈</h5>
+巫女/水神  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="4" type="number" min="0" max="255"></td></tr><tr data-index="10" data-uniqueid="11"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Nagi.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">娜基</h5>
+章魚妹/水母  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="11" data-uniqueid="12"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Ewan.jpg" class="icon" width="50">
+  <img src="./images/characters/as/Ewan.jpg" class="icon image-as element-animation" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">尤因</h5>
+火槌叔  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:red"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="16" type="number" min="0" max="255"></td></tr><tr data-index="12" data-uniqueid="13"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Cetie.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">謝提</h5>
+火槍哥  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="4" type="number" min="0" max="255"></td></tr><tr data-index="13" data-uniqueid="14"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Shanie.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">謝奈</h5>
+水劍  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="14" data-uniqueid="15"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Melina.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">玫莉娜</h5>
+水錘/水錘補  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-users hades" style="color:red"></i></td><td style="width: 60px; "><input class="form-control light-shadow" value="40" type="number" min="0" max="255"></td></tr><tr data-index="15" data-uniqueid="16"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Myrus.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">繆露絲</h5>
+魔獸妹  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="16" data-uniqueid="17"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Felmina.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">菲露米娜</h5>
+衛生紙  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="16" type="number" min="0" max="255"></td></tr><tr data-index="17" data-uniqueid="18"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Bertrand.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">貝特朗</h5>
+獨眼  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="18" data-uniqueid="19"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Tsukiha.jpg" class="icon" width="50">
+  <img src="./images/characters/as/Tsukiha.jpg" class="icon image-as element-animation" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">月華</h5>
+妖刀妹  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:red"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="19" data-uniqueid="20"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Claude.jpg" class="icon" width="50">
+  <img src="./images/characters/as/Claude.jpg" class="icon image-as element-animation" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">克勞特</h5>
+國王/風王  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:red"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="20" type="number" min="0" max="255"></td></tr><tr data-index="20" data-uniqueid="21"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Shannon.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">夏濃</h5>
+眠劍  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="21" data-uniqueid="22"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Renri.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">雷莉</h5>
+火斧  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="22" data-uniqueid="23"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Elga.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">艾露嘉</h5>
+貓刀  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="23" data-uniqueid="24"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Veina.jpg" class="icon" width="50">
+  <img src="./images/characters/as/Veina.jpg" class="icon image-as element-animation" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">維娜</h5>
+風法  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:red"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="17" type="number" min="0" max="255"></td></tr><tr data-index="24" data-uniqueid="25"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Dewey.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">杜伊</h5>
+水拳  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="25" data-uniqueid="26"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Ilulu.jpg" class="icon" width="50">
+  <img src="./images/characters/as/Ilulu.jpg" class="icon image-as element-animation" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">伊露露</h5>
+１６６  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:red"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="52" type="number" min="0" max="255"></td></tr><tr data-index="26" data-uniqueid="27"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Radica.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">拉蒂卡</h5>
+塔羅妹  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="4" type="number" min="0" max="255"></td></tr><tr data-index="27" data-uniqueid="28"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Hozuki.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">皓月</h5>
+騷狐  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="28" data-uniqueid="29"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Biaka.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">維婭卡</h5>
+風錘  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="29" data-uniqueid="30"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Tsubame.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">燕</h5>
+土忍  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="4" type="number" min="0" max="255"></td></tr><tr data-index="30" data-uniqueid="31"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Shigure.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">時雨</h5>
+水刀  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="4" type="number" min="0" max="255"></td></tr><tr data-index="31" data-uniqueid="32"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Rosetta.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">蘿潔塔</h5>
+火補  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="32" data-uniqueid="33"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Akane.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">茜</h5>
+刀妹  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="9" type="number" min="0" max="255"></td></tr><tr data-index="33" data-uniqueid="34"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Philo.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">菲羅</h5>
+水斧  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="34" data-uniqueid="35"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Lovely.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">拉布莉</h5>
+火蘿  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="35" data-uniqueid="36"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Dunarith.jpg" class="icon" width="50">
+  <img src="./images/characters/as/Dunarith.jpg" class="icon image-as element-animation" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">杜拿利斯</h5>
+風補  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:red"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="16" type="number" min="0" max="255"></td></tr><tr data-index="36" data-uniqueid="37"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Hismena.jpg" class="icon" width="50">
+  <img src="./images/characters/as/Hismena.jpg" class="icon image-as element-animation" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">希斯梅娜</h5>
+水槍  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:red"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="36" type="number" min="0" max="255"></td></tr><tr data-index="37" data-uniqueid="38"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Ruina.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">路伊娜</h5>
+風紀  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="6" type="number" min="0" max="255"></td></tr><tr data-index="38" data-uniqueid="39"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Premaya.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">普蕾米婭</h5>
+機娘  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="39" data-uniqueid="40"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Nikeh.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">尼姬</h5>
+尼姬/切菜姬  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="5" type="number" min="0" max="255"></td></tr><tr data-index="40" data-uniqueid="41"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Kikyo.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">桔梗</h5>
+分身妹  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="41" data-uniqueid="42"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Myunfa.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">霧華</h5>
+茶壺  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:red"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="32" type="number" min="0" max="255"></td></tr><tr data-index="42" data-uniqueid="43"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Tiramisu.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">提拉米蘇</h5>
+龍槍  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="8" type="number" min="0" max="255"></td></tr><tr data-index="43" data-uniqueid="44"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Radias.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">拉迪亞斯</h5>
+火劍  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:red"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="30" type="number" min="0" max="255"></td></tr><tr data-index="44" data-uniqueid="45"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Zeviro.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">塞維羅</h5>
+大聲斧  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="45" data-uniqueid="46"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Cynthia.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">申西雅</h5>
+王女  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="46" data-uniqueid="47"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Hardy.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">哈迪</h5>
+哈迪  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="47" data-uniqueid="48"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Yipha.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">伊法</h5>
+打陣  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:red"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="16" type="number" min="0" max="255"></td></tr><tr data-index="48" data-uniqueid="49"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Ciel.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">西雅爾</h5>
+偽娘  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="49" data-uniqueid="50"><td style="background-color: #a50200; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Thillelille.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">琪路莉露</h5>
+７６１６  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="10" type="number" min="0" max="255"></td></tr><tr data-index="50" data-uniqueid="51"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Foran.jpg" class="icon" width="50">
+  <img src="./images/characters/as/Foran.jpg" class="icon image-as" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">芙朗</h5>
+芙朗  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:red"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="1" type="number" min="0" max="255"></td></tr><tr data-index="51" data-uniqueid="52"><td style="background-color: #349134; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Victor.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">維克多</h5>
+雷刀  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="52" data-uniqueid="53"><td style="background-color: #349134; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Mistrare.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">米絲特蕾婭</h5>
+晶弓  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="4" type="number" min="0" max="255"></td></tr><tr data-index="53" data-uniqueid="54"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Yukino.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">雪乃</h5>
+雪弓  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="54" data-uniqueid="55"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Heena.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">緋奈</h5>
+人偶  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="55" data-uniqueid="56"><td style="background-color: #349134; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Melissa.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">梅莉莎</h5>
+女王蜂  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="56" data-uniqueid="57"><td style="background-color: #8c6255; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Milsha.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">米露莎</h5>
+人魚  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="57" data-uniqueid="58"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Miyu.jpg" class="icon" width="50">
+  <img src="./images/characters/as/Miyu.jpg" class="icon image-as element-animation" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">米悠</h5>
+公主  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas" style="color:red"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="31" type="number" min="0" max="255"></td></tr><tr data-index="58" data-uniqueid="59"><td style="background-color: #306cae; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Ewella.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">伊薇拉</h5>
+病嬌槍  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="text-align: center; width: 40px; "><font color="gray">-</font></td><td style="width: 60px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr></tbody></table></div>
+      <div class="fixed-table-footer"><table><thead><tr></tr></thead></table></div>
+      </div>
+      <div class="fixed-table-pagination" style="display: none;"></div>
+      </div><div class="clearfix"></div>
                 </div>
                 <div class="row justify-content-center no-gutters">
                     <div class="col-12 col-sm-6">
@@ -181,44 +503,44 @@
                         <div class="btn-group dropup mr-2" role="group">
                             <button id="weaponGroupDrop" type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="icon">
-                                    <img src="images/icons/weapon/sword.png" alt="sword" />
+                                    <img src="images/icons/weapon/sword.png" alt="sword">
                                 </span>
                             </button>
                             <div id="weaponGroup" class="dropdown-menu" aria-labelledby="weaponGroupDrop">
                                 <a class="dropdown-item active" href="#" data-weapon-type="顯示全部">
-                                    <img src="images/icons/weapon/sword.png" alt="showall" height="32" width="32"/>
+                                    <img src="images/icons/weapon/sword.png" alt="showall" height="32" width="32">
                                     顯示全部
                                 </a>
                                 <a class="dropdown-item" href="#" data-weapon-type="劍">
-                                    <img src="images/icons/weapon/sword.png" alt="sword" height="32" width="32"/>
+                                    <img src="images/icons/weapon/sword.png" alt="sword" height="32" width="32">
                                     劍
                                 </a>
                                 <a class="dropdown-item" href="#" data-weapon-type="杖">
-                                    <img src="images/icons/weapon/staff.png" alt="staff" height="32" width="32"/>
+                                    <img src="images/icons/weapon/staff.png" alt="staff" height="32" width="32">
                                     杖
                                 </a>
                                 <a class="dropdown-item" href="#" data-weapon-type="槍">
-                                    <img src="images/icons/weapon/lance.png" alt="lance" height="32" width="32"/>
+                                    <img src="images/icons/weapon/lance.png" alt="lance" height="32" width="32">
                                     槍
                                 </a>
                                 <a class="dropdown-item" href="#" data-weapon-type="刀">
-                                    <img src="images/icons/weapon/katana.png" alt="katana" height="32" width="32"/>
+                                    <img src="images/icons/weapon/katana.png" alt="katana" height="32" width="32">
                                     刀
                                 </a>
                                 <a class="dropdown-item" href="#" data-weapon-type="錘">
-                                    <img src="images/icons/weapon/hammer.png" alt="hammer" height="32" width="32"/>
+                                    <img src="images/icons/weapon/hammer.png" alt="hammer" height="32" width="32">
                                     錘
                                 </a>
                                 <a class="dropdown-item" href="#" data-weapon-type="拳">
-                                    <img src="images/icons/weapon/fists.png" alt="fists" height="32" width="32"/>
+                                    <img src="images/icons/weapon/fists.png" alt="fists" height="32" width="32">
                                     拳
                                 </a>
                                 <a class="dropdown-item" href="#" data-weapon-type="弓">
-                                    <img src="images/icons/weapon/bow.png" alt="bow" height="32" width="32"/>
+                                    <img src="images/icons/weapon/bow.png" alt="bow" height="32" width="32">
                                     弓
                                 </a>
                                 <a class="dropdown-item" href="#" data-weapon-type="斧">
-                                    <img src="images/icons/weapon/ax.png" alt="ax" height="32" width="32"/>
+                                    <img src="images/icons/weapon/ax.png" alt="ax" height="32" width="32">
                                     斧
                                 </a>
 
@@ -228,32 +550,32 @@
                         <div class="btn-group dropup mr-2" role="group">
                             <button id="elementGroupDrop" type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="icon">
-                                    <img src="images/icons/element/none.png" alt="none element" />
+                                    <img src="images/icons/element/none.png" alt="none element">
                                 </span>
                             </button>
                             <div id="elementGroup" class="dropdown-menu" aria-labelledby="elementGroupDrop">
                                 <a class="dropdown-item active" href="#" data-element-type="顯示全部">
-                                    <img src="images/icons/element/none.png" alt="showall" height="32" width="32"/>
+                                    <img src="images/icons/element/none.png" alt="showall" height="32" width="32">
                                     顯示全部
                                 </a>
                                 <a class="dropdown-item" href="#" data-element-type="地">
-                                    <img src="images/icons/element/earth.png" alt="earth" height="32" width="32"/>
+                                    <img src="images/icons/element/earth.png" alt="earth" height="32" width="32">
                                     地屬性
                                 </a>
                                 <a class="dropdown-item" href="#" data-element-type="火">
-                                    <img src="images/icons/element/fire.png" alt="fire" height="32" width="32"/>
+                                    <img src="images/icons/element/fire.png" alt="fire" height="32" width="32">
                                     火屬性
                                 </a>
                                 <a class="dropdown-item" href="#" data-element-type="水">
-                                    <img src="images/icons/element/water.png" alt="water" height="32" width="32"/>
+                                    <img src="images/icons/element/water.png" alt="water" height="32" width="32">
                                     水屬性
                                 </a>
                                 <a class="dropdown-item" href="#" data-element-type="風">
-                                    <img src="images/icons/element/wind.png" alt="wind" height="32" width="32"/>
+                                    <img src="images/icons/element/wind.png" alt="wind" height="32" width="32">
                                     風屬性
                                 </a>
                                 <a class="dropdown-item" href="#" data-element-type="無">
-                                    <img src="images/icons/element/none.png" alt="none" height="32" width="32"/>
+                                    <img src="images/icons/element/none.png" alt="none" height="32" width="32">
                                     無屬性
                                 </a>
                             </div>
@@ -261,24 +583,24 @@
                         <div class="btn-group dropup mr-2" role="group">
                             <button id="westernElementGroupDrop" type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="icon">
-                                    <img src="images/icons/element/none.png" alt="none element" />
+                                    <img src="images/icons/element/none.png" alt="none element">
                                 </span>
                             </button>
                             <div id="westernElementGroup" class="dropdown-menu" aria-labelledby="elementGroupDrop">
                                 <a class="dropdown-item active" href="#" data-element-type="顯示全部">
-                                    <img src="images/icons/element/none.png" alt="showall" height="32" width="32"/>
+                                    <img src="images/icons/element/none.png" alt="showall" height="32" width="32">
                                     顯示全部
                                 </a>
                                 <a class="dropdown-item" href="#" data-element-type="雷">
-                                    <img src="images/icons/element/thunder.png" alt="thunder" height="32" width="32"/>
+                                    <img src="images/icons/element/thunder.png" alt="thunder" height="32" width="32">
                                     雷屬性
                                 </a>
                                 <a class="dropdown-item" href="#" data-element-type="陰">
-                                    <img src="images/icons/element/shade.png" alt="shade" height="32" width="32"/>
+                                    <img src="images/icons/element/shade.png" alt="shade" height="32" width="32">
                                     陰屬性
                                 </a>
                                 <a class="dropdown-item" href="#" data-element-type="晶">
-                                    <img src="images/icons/element/crystal.png" alt="crystal" height="32" width="32"/>
+                                    <img src="images/icons/element/crystal.png" alt="crystal" height="32" width="32">
                                     晶屬性
                                 </a>
                             </div>
@@ -330,7 +652,7 @@
                                 </li>
                             </ul>
                         </nav>
-                        <div class="story-scroll-panel" data-spy="scroll" data-target="#navbar-story" data-offset="0">
+                        <div class="story-scroll-panel" data-spy="scroll" data-target="#navbar-story" data-offset="0" style="height: 154px;">
                             <div class="pl-3 pr-3 mb-2">
                                 <small>本頁為補充性資料，可自行選擇是否填寫。</small>
                             </div>
@@ -354,17 +676,123 @@
 
                             <div class="" id="select_as_book">
                                 <h4 class="pl-3 pr-3 pt-2">異節</h4>
-                                <table id="as_book_table" class="table table-bordered table-striped table-sm table-borderless"></table>
+                                <div class="bootstrap-table bootstrap4">
+      <div class="fixed-table-toolbar"></div>
+      
+      <div class="fixed-table-container" style="padding-bottom: 0px;">
+      <div class="fixed-table-header" style="display: none;"><table></table></div>
+      <div class="fixed-table-body">
+      <div class="fixed-table-loading table table-bordered table-striped table-sm table-borderless" style="top: 1px;">
+      <span class="loading-wrap">
+      <span class="loading-text">正在努力地載入牛棚，請稍候</span>
+      <span class="animation-wrap"><span class="animation-dot"></span></span>
+      </span>
+      </div>
+      <table id="as_book_table" class="table table-bordered table-striped table-sm table-borderless"><thead class="thead-dark" style=""><tr><th style="width: 100px; " data-field="name"><div class="th-inner ">名稱</div><div class="fht-cell"></div></th><th style="width: 160px; " data-field="as"><div class="th-inner ">異節</div><div class="fht-cell"></div></th><th style="width: 60px; " data-field="qty"><div class="th-inner ">數量</div><div class="fht-cell"></div></th></tr></thead><tbody><tr data-index="0" data-uniqueid="1"><td style="width: 100px; ">洛基德</td><td style="width: 160px; ">榮耀之獸的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="2" type="number" min="0" max="999" aria-label="榮耀之獸的異節數量"></td></tr><tr data-index="1" data-uniqueid="2"><td style="width: 100px; ">麥提</td><td style="width: 160px; ">司夢人的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="1" type="number" min="0" max="999" aria-label="司夢人的異節數量"></td></tr><tr data-index="2" data-uniqueid="3"><td style="width: 100px; ">杜娃</td><td style="width: 160px; ">幽靈新娘的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="0" type="number" min="0" max="999" aria-label="幽靈新娘的異節數量"></td></tr><tr data-index="3" data-uniqueid="4"><td style="width: 100px; ">紫央</td><td style="width: 160px; ">建御雷的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="0" type="number" min="0" max="999" aria-label="建御雷的異節數量"></td></tr><tr data-index="4" data-uniqueid="5"><td style="width: 100px; ">瑪莉艾爾</td><td style="width: 160px; ">女教皇的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="3" type="number" min="0" max="999" aria-label="女教皇的異節數量"></td></tr><tr data-index="5" data-uniqueid="6"><td style="width: 100px; ">蘇賽特</td><td style="width: 160px; ">蝶火女的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="1" type="number" min="0" max="999" aria-label="蝶火女的異節數量"></td></tr><tr data-index="6" data-uniqueid="7"><td style="width: 100px; ">安娜貝爾</td><td style="width: 160px; ">神聖騎士的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="3" type="number" min="0" max="999" aria-label="神聖騎士的異節數量"></td></tr><tr data-index="7" data-uniqueid="8"><td style="width: 100px; ">拉克萊兒</td><td style="width: 160px; ">皓白之主的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="1" type="number" min="0" max="999" aria-label="皓白之主的異節數量"></td></tr><tr data-index="8" data-uniqueid="9"><td style="width: 100px; ">伊絲卡</td><td style="width: 160px; ">星的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="0" type="number" min="0" max="999" aria-label="星的異節數量"></td></tr><tr data-index="9" data-uniqueid="10"><td style="width: 100px; ">由奈</td><td style="width: 160px; ">彌都波能賣的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="0" type="number" min="0" max="999" aria-label="彌都波能賣的異節數量"></td></tr><tr data-index="10" data-uniqueid="11"><td style="width: 100px; ">娜基</td><td style="width: 160px; ">惡夢觸手的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="1" type="number" min="0" max="999" aria-label="惡夢觸手的異節數量"></td></tr><tr data-index="11" data-uniqueid="12"><td style="width: 100px; ">尤因</td><td style="width: 160px; ">詛咒探索者的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="1" type="number" min="0" max="999" aria-label="詛咒探索者的異節數量"></td></tr><tr data-index="12" data-uniqueid="13"><td style="width: 100px; ">謝提</td><td style="width: 160px; ">深紅之雷的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="2" type="number" min="0" max="999" aria-label="深紅之雷的異節數量"></td></tr><tr data-index="13" data-uniqueid="14"><td style="width: 100px; ">謝奈</td><td style="width: 160px; ">布倫希爾德的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="1" type="number" min="0" max="999" aria-label="布倫希爾德的異節數量"></td></tr><tr data-index="14" data-uniqueid="15"><td style="width: 100px; ">玫莉娜</td><td style="width: 160px; ">懲戒者的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="1" type="number" min="0" max="999" aria-label="懲戒者的異節數量"></td></tr><tr data-index="15" data-uniqueid="16"><td style="width: 100px; ">繆露絲</td><td style="width: 160px; ">希柏利的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="3" type="number" min="0" max="999" aria-label="希柏利的異節數量"></td></tr><tr data-index="16" data-uniqueid="17"><td style="width: 100px; ">菲露米娜</td><td style="width: 160px; ">光輝之影的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="2" type="number" min="0" max="999" aria-label="光輝之影的異節數量"></td></tr><tr data-index="17" data-uniqueid="18"><td style="width: 100px; ">貝特朗</td><td style="width: 160px; ">米格蘭斯之盾的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="2" type="number" min="0" max="999" aria-label="米格蘭斯之盾的異節數量"></td></tr><tr data-index="18" data-uniqueid="19"><td style="width: 100px; ">月華</td><td style="width: 160px; ">更科姬的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="0" type="number" min="0" max="999" aria-label="更科姬的異節數量"></td></tr><tr data-index="19" data-uniqueid="20"><td style="width: 100px; ">克勞特</td><td style="width: 160px; ">偉大王者的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="1" type="number" min="0" max="999" aria-label="偉大王者的異節數量"></td></tr><tr data-index="20" data-uniqueid="21"><td style="width: 100px; ">夏濃</td><td style="width: 160px; ">傾城刑警的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="1" type="number" min="0" max="999" aria-label="傾城刑警的異節數量"></td></tr><tr data-index="21" data-uniqueid="22"><td style="width: 100px; ">雷莉</td><td style="width: 160px; ">臥底的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="1" type="number" min="0" max="999" aria-label="臥底的異節數量"></td></tr><tr data-index="22" data-uniqueid="23"><td style="width: 100px; ">艾露嘉</td><td style="width: 160px; ">巨魔之女的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="2" type="number" min="0" max="999" aria-label="巨魔之女的異節數量"></td></tr><tr data-index="23" data-uniqueid="24"><td style="width: 100px; ">維娜</td><td style="width: 160px; ">妖精女王的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="0" type="number" min="0" max="999" aria-label="妖精女王的異節數量"></td></tr><tr data-index="24" data-uniqueid="26"><td style="width: 100px; ">伊露露</td><td style="width: 160px; ">利比蒂娜的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="2" type="number" min="0" max="999" aria-label="利比蒂娜的異節數量"></td></tr><tr data-index="25" data-uniqueid="27"><td style="width: 100px; ">拉蒂卡</td><td style="width: 160px; ">福爾圖娜的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="2" type="number" min="0" max="999" aria-label="福爾圖娜的異節數量"></td></tr><tr data-index="26" data-uniqueid="28"><td style="width: 100px; ">皓月</td><td style="width: 160px; ">鬼火錦緞的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="0" type="number" min="0" max="999" aria-label="鬼火錦緞的異節數量"></td></tr><tr data-index="27" data-uniqueid="32"><td style="width: 100px; ">蘿潔塔</td><td style="width: 160px; ">救贖者的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="3" type="number" min="0" max="999" aria-label="救贖者的異節數量"></td></tr><tr data-index="28" data-uniqueid="33"><td style="width: 100px; ">茜</td><td style="width: 160px; ">甕速日神的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="1" type="number" min="0" max="999" aria-label="甕速日神的異節數量"></td></tr><tr data-index="29" data-uniqueid="36"><td style="width: 100px; ">杜拿利斯</td><td style="width: 160px; ">靈魂祝福師的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="4" type="number" min="0" max="999" aria-label="靈魂祝福師的異節數量"></td></tr><tr data-index="30" data-uniqueid="37"><td style="width: 100px; ">希斯梅娜</td><td style="width: 160px; ">烈陽之槍的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="1" type="number" min="0" max="999" aria-label="烈陽之槍的異節數量"></td></tr><tr data-index="31" data-uniqueid="38"><td style="width: 100px; ">路伊娜</td><td style="width: 160px; ">空氣精靈的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="2" type="number" min="0" max="999" aria-label="空氣精靈的異節數量"></td></tr><tr data-index="32" data-uniqueid="40"><td style="width: 100px; ">尼姬</td><td style="width: 160px; ">八十禍津日的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="2" type="number" min="0" max="999" aria-label="八十禍津日的異節數量"></td></tr><tr data-index="33" data-uniqueid="49"><td style="width: 100px; ">西雅爾</td><td style="width: 160px; ">甜魅歌姬的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="2" type="number" min="0" max="999" aria-label="甜魅歌姬的異節數量"></td></tr><tr data-index="34" data-uniqueid="51"><td style="width: 100px; ">芙朗</td><td style="width: 160px; ">古武之槍的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="3" type="number" min="0" max="999" aria-label="古武之槍的異節數量"></td></tr><tr data-index="35" data-uniqueid="58"><td style="width: 100px; ">米悠</td><td style="width: 160px; ">米娜瓦的異節</td><td style="width: 60px; "><input class="form-control as-book-input" value="2" type="number" min="0" max="999" aria-label="米娜瓦的異節數量"></td></tr></tbody></table></div>
+      <div class="fixed-table-footer"><table><thead><tr></tr></thead></table></div>
+      </div>
+      <div class="fixed-table-pagination" style="display: none;"></div>
+      </div><div class="clearfix"></div>
                             </div>
 
                             <div class="" id="select_es_book">
                                 <h4 class="pl-3 pr-3 pt-2">改典</h4>
-                                <table id="es_book_table" class="table table-bordered table-striped table-sm table-borderless"></table>
+                                <div class="bootstrap-table bootstrap4">
+      <div class="fixed-table-toolbar"></div>
+      
+      <div class="fixed-table-container" style="padding-bottom: 0px;">
+      <div class="fixed-table-header" style="display: none;"><table></table></div>
+      <div class="fixed-table-body">
+      <div class="fixed-table-loading table table-bordered table-striped table-sm table-borderless" style="top: 1px;">
+      <span class="loading-wrap">
+      <span class="loading-text">正在努力地載入牛棚，請稍候</span>
+      <span class="animation-wrap"><span class="animation-dot"></span></span>
+      </span>
+      </div>
+      <table id="es_book_table" class="table table-bordered table-striped table-sm table-borderless"><thead class="thead-dark" style=""><tr><th style="width: 100px; " data-field="name"><div class="th-inner ">名稱</div><div class="fht-cell"></div></th><th style="width: 160px; " data-field="as"><div class="th-inner ">改典</div><div class="fht-cell"></div></th><th style="width: 60px; " data-field="qty"><div class="th-inner ">數量</div><div class="fht-cell"></div></th></tr></thead><tbody><tr data-index="0" data-uniqueid="15"><td style="width: 100px; ">玫莉娜</td><td style="width: 160px; ">百腕巨人的改典</td><td style="width: 60px; "><input class="form-control es-book-input" value="1" type="number" min="0" max="999" aria-label="undefined數量"></td></tr></tbody></table></div>
+      <div class="fixed-table-footer"><table><thead><tr></tr></thead></table></div>
+      </div>
+      <div class="fixed-table-pagination" style="display: none;"></div>
+      </div><div class="clearfix"></div>
                             </div>
 
-                            <div class="pl-3" id="mainStory" data-newest="74">
+                            <div class="pl-3" id="mainStory" data-newest="74" data-selected-number="74">
                                 <h4 class="pt-4" id="mainStoryTitle">主線章節</h4>
-                                <div class="btn-inline main-story-btn-group" id="mainStoryBtnGroup"></div>
+                                <div class="btn-inline main-story-btn-group" id="mainStoryBtnGroup"><button name="mainStoryBtn[1]" type="button" class="btn btn-primary" data-val="1">01</button>
+<button name="mainStoryBtn[2]" type="button" class="btn btn-primary" data-val="2">02</button>
+<button name="mainStoryBtn[3]" type="button" class="btn btn-primary" data-val="3">03</button>
+<button name="mainStoryBtn[4]" type="button" class="btn btn-primary" data-val="4">04</button>
+<button name="mainStoryBtn[5]" type="button" class="btn btn-primary" data-val="5">05</button>
+<button name="mainStoryBtn[6]" type="button" class="btn btn-primary" data-val="6">06</button>
+<button name="mainStoryBtn[7]" type="button" class="btn btn-primary" data-val="7">07</button>
+<button name="mainStoryBtn[8]" type="button" class="btn btn-primary" data-val="8">08</button>
+<button name="mainStoryBtn[9]" type="button" class="btn btn-primary" data-val="9">09</button>
+<button name="mainStoryBtn[10]" type="button" class="btn btn-primary" data-val="10">10</button>
+<button name="mainStoryBtn[11]" type="button" class="btn btn-primary" data-val="11">11</button>
+<button name="mainStoryBtn[12]" type="button" class="btn btn-primary" data-val="12">12</button>
+<button name="mainStoryBtn[13]" type="button" class="btn btn-primary" data-val="13">13</button>
+<button name="mainStoryBtn[14]" type="button" class="btn btn-primary" data-val="14">14</button>
+<button name="mainStoryBtn[15]" type="button" class="btn btn-primary" data-val="15">15</button>
+<button name="mainStoryBtn[16]" type="button" class="btn btn-primary" data-val="16">16</button>
+<button name="mainStoryBtn[17]" type="button" class="btn btn-primary" data-val="17">17</button>
+<button name="mainStoryBtn[18]" type="button" class="btn btn-primary" data-val="18">18</button>
+<button name="mainStoryBtn[19]" type="button" class="btn btn-primary" data-val="19">19</button>
+<button name="mainStoryBtn[20]" type="button" class="btn btn-primary" data-val="20">20</button>
+<button name="mainStoryBtn[21]" type="button" class="btn btn-primary" data-val="21">21</button>
+<button name="mainStoryBtn[22]" type="button" class="btn btn-primary" data-val="22">22</button>
+<button name="mainStoryBtn[23]" type="button" class="btn btn-primary" data-val="23">23</button>
+<button name="mainStoryBtn[24]" type="button" class="btn btn-primary" data-val="24">24</button>
+<button name="mainStoryBtn[25]" type="button" class="btn btn-primary" data-val="25">25</button>
+<button name="mainStoryBtn[26]" type="button" class="btn btn-primary" data-val="26">26</button>
+<button name="mainStoryBtn[27]" type="button" class="btn btn-primary" data-val="27">27</button>
+<button name="mainStoryBtn[28]" type="button" class="btn btn-primary" data-val="28">28</button>
+<button name="mainStoryBtn[29]" type="button" class="btn btn-primary" data-val="29">29</button>
+<button name="mainStoryBtn[30]" type="button" class="btn btn-primary" data-val="30">30</button>
+<button name="mainStoryBtn[31]" type="button" class="btn btn-primary" data-val="31">31</button>
+<button name="mainStoryBtn[32]" type="button" class="btn btn-primary" data-val="32">32</button>
+<button name="mainStoryBtn[33]" type="button" class="btn btn-primary" data-val="33">33</button>
+<button name="mainStoryBtn[34]" type="button" class="btn btn-primary" data-val="34">34</button>
+<button name="mainStoryBtn[35]" type="button" class="btn btn-primary" data-val="35">35</button>
+<button name="mainStoryBtn[36]" type="button" class="btn btn-primary" data-val="36">36</button>
+<button name="mainStoryBtn[37]" type="button" class="btn btn-primary" data-val="37">37</button>
+<button name="mainStoryBtn[38]" type="button" class="btn btn-primary" data-val="38">38</button>
+<button name="mainStoryBtn[39]" type="button" class="btn btn-primary" data-val="39">39</button>
+<button name="mainStoryBtn[40]" type="button" class="btn btn-primary" data-val="40">40</button>
+<button name="mainStoryBtn[41]" type="button" class="btn btn-primary" data-val="41">41</button>
+<button name="mainStoryBtn[42]" type="button" class="btn btn-primary" data-val="42">42</button>
+<button name="mainStoryBtn[43]" type="button" class="btn btn-primary" data-val="43">43</button>
+<button name="mainStoryBtn[44]" type="button" class="btn btn-primary" data-val="44">44</button>
+<button name="mainStoryBtn[45]" type="button" class="btn btn-primary" data-val="45">45</button>
+<button name="mainStoryBtn[46]" type="button" class="btn btn-primary" data-val="46">46</button>
+<button name="mainStoryBtn[47]" type="button" class="btn btn-primary" data-val="47">47</button>
+<button name="mainStoryBtn[48]" type="button" class="btn btn-primary" data-val="48">48</button>
+<button name="mainStoryBtn[49]" type="button" class="btn btn-primary" data-val="49">49</button>
+<button name="mainStoryBtn[50]" type="button" class="btn btn-primary" data-val="50">50</button>
+<button name="mainStoryBtn[51]" type="button" class="btn btn-primary" data-val="51">51</button>
+<button name="mainStoryBtn[52]" type="button" class="btn btn-primary" data-val="52">52</button>
+<button name="mainStoryBtn[53]" type="button" class="btn btn-primary" data-val="53">53</button>
+<button name="mainStoryBtn[54]" type="button" class="btn btn-primary" data-val="54">54</button>
+<button name="mainStoryBtn[55]" type="button" class="btn btn-primary" data-val="55">55</button>
+<button name="mainStoryBtn[56]" type="button" class="btn btn-primary" data-val="56">56</button>
+<button name="mainStoryBtn[57]" type="button" class="btn btn-primary" data-val="57">57</button>
+<button name="mainStoryBtn[58]" type="button" class="btn btn-primary" data-val="58">58</button>
+<button name="mainStoryBtn[59]" type="button" class="btn btn-primary" data-val="59">59</button>
+<button name="mainStoryBtn[60]" type="button" class="btn btn-primary" data-val="60">60</button>
+<button name="mainStoryBtn[61]" type="button" class="btn btn-primary" data-val="61">61</button>
+<button name="mainStoryBtn[62]" type="button" class="btn btn-primary" data-val="62">62</button>
+<button name="mainStoryBtn[63]" type="button" class="btn btn-primary" data-val="63">63</button>
+<button name="mainStoryBtn[64]" type="button" class="btn btn-primary" data-val="64">64</button>
+<button name="mainStoryBtn[65]" type="button" class="btn btn-primary" data-val="65">65</button>
+<button name="mainStoryBtn[66]" type="button" class="btn btn-primary" data-val="66">66</button>
+<button name="mainStoryBtn[67]" type="button" class="btn btn-primary" data-val="67">67</button>
+<button name="mainStoryBtn[68]" type="button" class="btn btn-primary" data-val="68">68</button>
+<button name="mainStoryBtn[69]" type="button" class="btn btn-primary" data-val="69">69</button>
+<button name="mainStoryBtn[70]" type="button" class="btn btn-primary" data-val="70">70</button>
+<button name="mainStoryBtn[71]" type="button" class="btn btn-primary" data-val="71">71</button>
+<button name="mainStoryBtn[72]" type="button" class="btn btn-primary" data-val="72">72</button>
+<button name="mainStoryBtn[73]" type="button" class="btn btn-primary" data-val="73">73</button>
+<button name="mainStoryBtn[74]" type="button" class="btn btn-primary" data-val="74">74</button>
+</div>
                             </div>
 
                             <div class="pl-3 pr-3" id="otherStoryTitle">
@@ -381,14 +809,125 @@
                                     <div class="clearfix"></div>
                                 </div>
 
-                                <div class="" id="extraStory">
-
-                                </div>
+                                <div class="" id="extraStory"><div class="extra-story-item" data-story-start="13" data-books="3"><div class="form-group row"><div class="col-8 col-sm-9"><span class="badge badge-secondary" data-data-name="storyType">外傳</span> <span data-data-name="storyTitle">雙騎士與祈禱的魔劍</span></div>
+<div class="col-4 col-sm-3"><div class="custom-control custom-switch">
+   <input type="checkbox" class="custom-control-input" id="extraStory_0">
+   <label class="custom-control-label" for="extraStory_0"> 己完成</label>
+</div></div></div><div class="form-group row"><label class="col-8 col-sm-9 col-form-label pt-0 pb-0" for="extraStoryBook_0" data-data-name="yumeBookLabel">己取得詠夢之書獎勵 <span class="book-display">3</span> / 3本</label>
+<div class="col-4 col-sm-3 pt-1"><input type="range" id="getYumeBook_0" class="custom-range" min="0" max="3" value="0" extrastorybook_0"=""></div>
+</div></div>
+<div class="extra-story-item" data-story-start="13" data-books="3"><div class="form-group row"><div class="col-8 col-sm-9"><span class="badge badge-secondary" data-data-name="storyType">外傳</span> <span data-data-name="storyTitle">IDA學園篇Ⅰ絕對零度鎖鏈</span></div>
+<div class="col-4 col-sm-3"><div class="custom-control custom-switch">
+   <input type="checkbox" class="custom-control-input" id="extraStory_1">
+   <label class="custom-control-label" for="extraStory_1"> 己完成</label>
+</div></div></div><div class="form-group row"><label class="col-8 col-sm-9 col-form-label pt-0 pb-0" for="extraStoryBook_1" data-data-name="yumeBookLabel">己取得詠夢之書獎勵 <span class="book-display">3</span> / 3本</label>
+<div class="col-4 col-sm-3 pt-1"><input type="range" id="getYumeBook_1" class="custom-range" min="0" max="3" value="0" extrastorybook_1"=""></div>
+</div></div>
+<div class="extra-story-item" data-story-start="11" data-books="4"><div class="form-group row"><div class="col-8 col-sm-9"><span class="badge badge-secondary" data-data-name="storyType">外傳</span> <span data-data-name="storyTitle">千年寶盒與海神神殿</span></div>
+<div class="col-4 col-sm-3"><div class="custom-control custom-switch">
+   <input type="checkbox" class="custom-control-input" id="extraStory_2">
+   <label class="custom-control-label" for="extraStory_2"> 己完成</label>
+</div></div></div><div class="form-group row"><label class="col-8 col-sm-9 col-form-label pt-0 pb-0" for="extraStoryBook_2" data-data-name="yumeBookLabel">己取得詠夢之書獎勵 <span class="book-display">0</span> / 4本</label>
+<div class="col-4 col-sm-3 pt-1"><input type="range" id="getYumeBook_2" class="custom-range" min="0" max="4" value="0" extrastorybook_2"=""></div>
+</div></div>
+<div class="extra-story-item" data-story-start="21" data-books="4"><div class="form-group row"><div class="col-8 col-sm-9"><span class="badge badge-secondary" data-data-name="storyType">外傳</span> <span data-data-name="storyTitle">時之煤礦與夢想鄉</span></div>
+<div class="col-4 col-sm-3"><div class="custom-control custom-switch">
+   <input type="checkbox" class="custom-control-input" id="extraStory_3">
+   <label class="custom-control-label" for="extraStory_3">未完成</label>
+</div></div></div><div class="form-group row"><label class="col-8 col-sm-9 col-form-label pt-0 pb-0" for="extraStoryBook_3" data-data-name="yumeBookLabel">己取得詠夢之書獎勵 <span class="book-display">2</span> / 4本</label>
+<div class="col-4 col-sm-3 pt-1"><input type="range" id="getYumeBook_3" class="custom-range" min="0" max="4" value="0" extrastorybook_3"=""></div>
+</div></div>
+<div class="extra-story-item" data-story-start="13" data-books="3"><div class="form-group row"><div class="col-8 col-sm-9"><span class="badge badge-secondary" data-data-name="storyType">外傳</span> <span data-data-name="storyTitle">IDA學園篇Ⅱ蝴蝶之街與天之搖籃</span></div>
+<div class="col-4 col-sm-3"><div class="custom-control custom-switch">
+   <input type="checkbox" class="custom-control-input" id="extraStory_4">
+   <label class="custom-control-label" for="extraStory_4"> 己完成</label>
+</div></div></div><div class="form-group row"><label class="col-8 col-sm-9 col-form-label pt-0 pb-0" for="extraStoryBook_4" data-data-name="yumeBookLabel">己取得詠夢之書獎勵 <span class="book-display">1</span> / 3本</label>
+<div class="col-4 col-sm-3 pt-1"><input type="range" id="getYumeBook_4" class="custom-range" min="0" max="3" value="0" extrastorybook_4"=""></div>
+</div></div>
+<div class="extra-story-item" data-story-start="13" data-books="3"><div class="form-group row"><div class="col-8 col-sm-9"><span class="badge badge-secondary" data-data-name="storyType">外傳</span> <span data-data-name="storyTitle">衝天之塔與幽冥魔女</span></div>
+<div class="col-4 col-sm-3"><div class="custom-control custom-switch">
+   <input type="checkbox" class="custom-control-input" id="extraStory_5">
+   <label class="custom-control-label" for="extraStory_5"> 己完成</label>
+</div></div></div><div class="form-group row"><label class="col-8 col-sm-9 col-form-label pt-0 pb-0" for="extraStoryBook_5" data-data-name="yumeBookLabel">己取得詠夢之書獎勵 <span class="book-display">0</span> / 3本</label>
+<div class="col-4 col-sm-3 pt-1"><input type="range" id="getYumeBook_5" class="custom-range" min="0" max="3" value="0" extrastorybook_5"=""></div>
+</div></div>
+<div class="extra-story-item" data-story-start="35" data-books="3"><div class="form-group row"><div class="col-8 col-sm-9"><span class="badge badge-secondary" data-data-name="storyType">外傳</span> <span data-data-name="storyTitle">封閉的庭園與蒼穹的背叛者</span></div>
+<div class="col-4 col-sm-3"><div class="custom-control custom-switch">
+   <input type="checkbox" class="custom-control-input" id="extraStory_6">
+   <label class="custom-control-label" for="extraStory_6"> 己完成</label>
+</div></div></div><div class="form-group row"><label class="col-8 col-sm-9 col-form-label pt-0 pb-0" for="extraStoryBook_6" data-data-name="yumeBookLabel">己取得詠夢之書獎勵 <span class="book-display">0</span> / 3本</label>
+<div class="col-4 col-sm-3 pt-1"><input type="range" id="getYumeBook_6" class="custom-range" min="0" max="3" value="0" extrastorybook_6"=""></div>
+</div></div>
+<div class="extra-story-item" data-story-start="44" data-books="3"><div class="form-group row"><div class="col-8 col-sm-9"><span class="badge badge-secondary" data-data-name="storyType">外傳</span> <span data-data-name="storyTitle">IDA學園篇Ⅲ引導的果實與虛像之迷途羔羊</span></div>
+<div class="col-4 col-sm-3"><div class="custom-control custom-switch">
+   <input type="checkbox" class="custom-control-input" id="extraStory_7">
+   <label class="custom-control-label" for="extraStory_7"> 己完成</label>
+</div></div></div><div class="form-group row"><label class="col-8 col-sm-9 col-form-label pt-0 pb-0" for="extraStoryBook_7" data-data-name="yumeBookLabel">己取得詠夢之書獎勵 <span class="book-display">0</span> / 3本</label>
+<div class="col-4 col-sm-3 pt-1"><input type="range" id="getYumeBook_7" class="custom-range" min="0" max="3" value="0" extrastorybook_7"=""></div>
+</div></div>
+<div class="extra-story-item" data-story-start="13" data-books="2"><div class="form-group row"><div class="col-8 col-sm-9"><span class="badge badge-secondary" data-data-name="storyType">斷章</span> <span data-data-name="storyTitle">小公主的迷你大冒險</span></div>
+<div class="col-4 col-sm-3"><div class="custom-control custom-switch">
+   <input type="checkbox" class="custom-control-input" id="extraStory_8">
+   <label class="custom-control-label" for="extraStory_8">未完成</label>
+</div></div></div><div class="form-group row"><label class="col-8 col-sm-9 col-form-label pt-0 pb-0" for="extraStoryBook_8" data-data-name="yumeBookLabel">己取得詠夢之書獎勵 <span class="book-display">0</span> / 2本</label>
+<div class="col-4 col-sm-3 pt-1"><input type="range" id="getYumeBook_8" class="custom-range" min="0" max="2" value="0" extrastorybook_8"=""></div>
+</div></div>
+<div class="extra-story-item" data-story-start="20" data-books="2"><div class="form-group row"><div class="col-8 col-sm-9"><span class="badge badge-secondary" data-data-name="storyType">斷章</span> <span data-data-name="storyTitle">異國的天空與通往自由的方舟</span></div>
+<div class="col-4 col-sm-3"><div class="custom-control custom-switch">
+   <input type="checkbox" class="custom-control-input" id="extraStory_9">
+   <label class="custom-control-label" for="extraStory_9">未完成</label>
+</div></div></div><div class="form-group row"><label class="col-8 col-sm-9 col-form-label pt-0 pb-0" for="extraStoryBook_9" data-data-name="yumeBookLabel">己取得詠夢之書獎勵 <span class="book-display">0</span> / 2本</label>
+<div class="col-4 col-sm-3 pt-1"><input type="range" id="getYumeBook_9" class="custom-range" min="0" max="2" value="0" extrastorybook_9"=""></div>
+</div></div>
+<div class="extra-story-item" data-story-start="22" data-books="3"><div class="form-group row"><div class="col-8 col-sm-9"><span class="badge badge-secondary" data-data-name="storyType">外傳</span> <span data-data-name="storyTitle">起始的騎士與祈禱的魔劍</span></div>
+<div class="col-4 col-sm-3"><div class="custom-control custom-switch">
+   <input type="checkbox" class="custom-control-input" id="extraStory_10">
+   <label class="custom-control-label" for="extraStory_10"> 己完成</label>
+</div></div></div><div class="form-group row"><label class="col-8 col-sm-9 col-form-label pt-0 pb-0" for="extraStoryBook_10" data-data-name="yumeBookLabel">己取得詠夢之書獎勵 <span class="book-display">0</span> / 3本</label>
+<div class="col-4 col-sm-3 pt-1"><input type="range" id="getYumeBook_10" class="custom-range" min="0" max="3" value="0" extrastorybook_10"=""></div>
+</div></div>
+<div class="extra-story-item" data-story-start="13" data-books="3"><div class="form-group row"><div class="col-8 col-sm-9"><span class="badge badge-secondary" data-data-name="storyType">外傳</span> <span data-data-name="storyTitle">失落的正典與銀色的不凋花</span></div>
+<div class="col-4 col-sm-3"><div class="custom-control custom-switch">
+   <input type="checkbox" class="custom-control-input" id="extraStory_11">
+   <label class="custom-control-label" for="extraStory_11"> 己完成</label>
+</div></div></div><div class="form-group row"><label class="col-8 col-sm-9 col-form-label pt-0 pb-0" for="extraStoryBook_11" data-data-name="yumeBookLabel">己取得詠夢之書獎勵 <span class="book-display">3</span> / 3本</label>
+<div class="col-4 col-sm-3 pt-1"><input type="range" id="getYumeBook_11" class="custom-range" min="0" max="3" value="0" extrastorybook_11"=""></div>
+</div></div>
+<div class="extra-story-item" data-story-start="13" data-books="3"><div class="form-group row"><div class="col-8 col-sm-9"><span class="badge badge-secondary" data-data-name="storyType">協奏</span> <span data-data-name="storyTitle">雙魂之羈絆與虛無的傀儡師</span></div>
+<div class="col-4 col-sm-3"><div class="custom-control custom-switch">
+   <input type="checkbox" class="custom-control-input" id="extraStory_12">
+   <label class="custom-control-label" for="extraStory_12"> 己完成</label>
+</div></div></div><div class="form-group row"><label class="col-8 col-sm-9 col-form-label pt-0 pb-0" for="extraStoryBook_12" data-data-name="yumeBookLabel">己取得詠夢之書獎勵 <span class="book-display">0</span> / 3本</label>
+<div class="col-4 col-sm-3 pt-1"><input type="range" id="getYumeBook_12" class="custom-range" min="0" max="3" value="0" extrastorybook_12"=""></div>
+</div></div>
+<div class="extra-story-item" data-story-start="13" data-books="4"><div class="form-group row"><div class="col-8 col-sm-9"><span class="badge badge-secondary" data-data-name="storyType">協奏</span> <span data-data-name="storyTitle">光陰之尾，四穹群星～Tales of Chronographia～</span></div>
+<div class="col-4 col-sm-3"><div class="custom-control custom-switch">
+   <input type="checkbox" class="custom-control-input" id="extraStory_13">
+   <label class="custom-control-label" for="extraStory_13"> 己完成</label>
+</div></div></div><div class="form-group row"><label class="col-8 col-sm-9 col-form-label pt-0 pb-0" for="extraStoryBook_13" data-data-name="yumeBookLabel">己取得詠夢之書獎勵 <span class="book-display">2</span> / 4本</label>
+<div class="col-4 col-sm-3 pt-1"><input type="range" id="getYumeBook_13" class="custom-range" min="0" max="4" value="0" extrastorybook_13"=""></div>
+</div></div>
+<div class="extra-story-item" data-story-start="13" data-books="1"><div class="form-group row"><div class="col-8 col-sm-9"><span class="badge badge-secondary" data-data-name="storyType">外典</span> <span data-data-name="storyTitle">劍之詩篇與失樂之翼 第3話</span></div>
+<div class="col-4 col-sm-3"><div class="custom-control custom-switch">
+   <input type="checkbox" class="custom-control-input" id="extraStory_14">
+   <label class="custom-control-label" for="extraStory_14"> 己完成</label>
+</div></div></div><div class="form-group row"><label class="col-8 col-sm-9 col-form-label pt-0 pb-0" for="extraStoryBook_14" data-data-name="yumeBookLabel">己取得詠夢之書獎勵 <span class="book-display">0</span> / 1本</label>
+<div class="col-4 col-sm-3 pt-1"><input type="range" id="getYumeBook_14" class="custom-range" min="0" max="1" value="0" extrastorybook_14"=""></div>
+</div></div>
+<div class="extra-story-item" data-story-start="13" data-books="1"><div class="form-group row"><div class="col-8 col-sm-9"><span class="badge badge-secondary" data-data-name="storyType">外典</span> <span data-data-name="storyTitle">劍之詩篇與失樂之翼 第7話</span></div>
+<div class="col-4 col-sm-3"><div class="custom-control custom-switch">
+   <input type="checkbox" class="custom-control-input" id="extraStory_15">
+   <label class="custom-control-label" for="extraStory_15"> 己完成</label>
+</div></div></div><div class="form-group row"><label class="col-8 col-sm-9 col-form-label pt-0 pb-0" for="extraStoryBook_15" data-data-name="yumeBookLabel">己取得詠夢之書獎勵 <span class="book-display">0</span> / 1本</label>
+<div class="col-4 col-sm-3 pt-1"><input type="range" id="getYumeBook_15" class="custom-range" min="0" max="1" value="0" extrastorybook_15"=""></div>
+</div></div></div>
                             </div>
 
                             <div class="">
                                 <h4 class="pl-3" id="free">配布角色</h4>
-                                <div class="" id="free_toolbar">
+                                
+                                <div class="bootstrap-table bootstrap4">
+      <div class="fixed-table-toolbar"><div class="bs-bars float-right"><div class="" id="free_toolbar">
                                     <div class="btn-group btn-group-sm" role="group" aria-label="Select all">
                                         <button type="button" class="btn" id="selectAllFreeListed">
                                             <i class="fas fa-check-square"></i> 選擇全部
@@ -398,14 +937,347 @@
                                         </button>
                                     </div>
 
-                                </div>
-                                <table id="free_table" class="table table-bordered table-striped table-sm table-borderless"></table>
+                                </div></div></div>
+      
+      <div class="fixed-table-container" style="padding-bottom: 0px;">
+      <div class="fixed-table-header" style="display: none;"><table></table></div>
+      <div class="fixed-table-body">
+      <div class="fixed-table-loading table table-bordered table-striped table-sm table-borderless" style="top: 1px;">
+      <span class="loading-wrap">
+      <span class="loading-text">正在努力地載入牛棚，請稍候</span>
+      <span class="animation-wrap"><span class="animation-dot"></span></span>
+      </span>
+      </div>
+      <table id="free_table" class="table table-bordered table-striped table-sm table-borderless"><thead class="thead-dark" style=""><tr><th style="width: 5px; " data-field="element"><div class="th-inner "></div><div class="fht-cell"></div></th><th style="width: 200px; " data-field="name"><div class="th-inner ">角色</div><div class="fht-cell"></div></th><th style="text-align: left; width: 130px; " data-field="star"><div class="th-inner ">★★★★★</div><div class="fht-cell"></div></th><th style="text-align: center; width: 40px; " data-field="hadas"><div class="th-inner ">AS</div><div class="fht-cell"></div></th><th style="width: 40px; " data-field="lightShadow"><div class="th-inner ">天冥</div><div class="fht-cell"></div></th></tr></thead><tbody><tr data-index="0" data-uniqueid="1"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Aldo.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">阿爾德</h5>
+阿爾喵  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="45" type="number" min="0" max="255"></td></tr><tr data-index="1" data-uniqueid="2"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Riica.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">莉卡</h5>
+粉紅補  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-gray had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="2" data-uniqueid="3"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Amy.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">艾米</h5>
+艾咪  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-gray had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="3" data-uniqueid="4"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Cyrus.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">賽勒斯</h5>
+青蛙  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-gray had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="4" data-uniqueid="5"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Helena.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">海蕾娜</h5>
+未亡人  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-gray had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="5" data-uniqueid="6"><td style="background-color: #909090; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Feinne.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">菲妮</h5>
+妹妹  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="far fa-star star-gray"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="6" data-uniqueid="7"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Levia.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">莉維雅</h5>
+魚妹  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-gray had5"></i>
+<i class="fas fa-star star-gray had5"></i>
+<i class="fas fa-star star-gray had5"></i>
+<i class="fas fa-star star-gray had5"></i>
+<i class="fas fa-star star-gray had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="7" data-uniqueid="8"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Guildna.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">基爾德那</h5>
+魔王  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-gray had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="8" data-uniqueid="9"><td style="background-color: #909090; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Straw Boy.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">草人小子</h5>
+草人  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="9" type="number" min="0" max="255"></td></tr><tr data-index="9" data-uniqueid="10"><td style="background-color: #909090; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Altena.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">阿露緹娜</h5>
+魔王妹  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="10" data-uniqueid="11"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Deirdre.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">蒂亞朵拉</h5>
+魔劍  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had2"></i>
+<i class="fas fa-star star-red had2"></i>
+<i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="11" data-uniqueid="12"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Jade.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">賈德</h5>
+-  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had2"></i>
+<i class="fas fa-star star-red had2"></i>
+<i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="12" data-uniqueid="13"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Sheila.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">謝拉</h5>
+乙姬  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had2"></i>
+<i class="fas fa-star star-red had2"></i>
+<i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="far fa-star star-gray"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="13" data-uniqueid="14"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Good Macky.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">木啾啾</h5>
+善良的米可麥克  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-gray had4"></i>
+<i class="fas fa-star star-gray had4"></i>
+<i class="fas fa-star star-gray had4"></i>
+<i class="fas fa-star star-gray had4"></i>
+<i class="far fa-star star-gray"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="14" data-uniqueid="15"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Saki.jpg" class="icon" width="50">
+  <img src="./images/characters/as/Saki.jpg" class="icon image-as element-animation" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">紗希</h5>
+學生妹/冰花  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had2"></i>
+<i class="fas fa-star star-red had2"></i>
+<i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="far fa-star star-gray"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas star-red"></i></td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="15" data-uniqueid="16"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Nopaew.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">諾澎族</h5>
+波波羅  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had2"></i>
+<i class="fas fa-star star-red had2"></i>
+<i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="far fa-star star-gray"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="16" data-uniqueid="17"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Galliard.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">嘉里德</h5>
+飛天哥  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="far fa-star star-gray"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="17" data-uniqueid="18"><td style="background-color: #909090; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Mana.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">瑪娜</h5>
+蘋果妹  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="18" data-uniqueid="19"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Sophia.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">蘇菲婭</h5>
+花少女  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="19" data-uniqueid="20"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Azami.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">阿佐美</h5>
+阿傻美  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-gray had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="20" data-uniqueid="21"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Gariyu.jpg" class="icon" width="50">
+  <img src="./images/characters/as/Gariyu.jpg" class="icon image-as element-animation" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">伽琉</h5>
+火法/烈火陣  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had2"></i>
+<i class="fas fa-star star-red had2"></i>
+<i class="fas fa-star star-red had3"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had5"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-user-friends hadas star-red"></i></td><td style="width: 40px; "><input class="form-control light-shadow" value="10" type="number" min="0" max="255"></td></tr><tr data-index="21" data-uniqueid="22"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Cerrine.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">思琳</h5>
+老師  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-gray had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="22" data-uniqueid="23"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Joker.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">JOKER</h5>
+-  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="23" data-uniqueid="24"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Morgana.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">摩爾加納</h5>
+MONA  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="24" data-uniqueid="25"><td style="background-color: #8c6255; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Clarte.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">古拉爾迪</h5>
+-  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="25" data-uniqueid="26"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Violet.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">VIOLET</h5>
+芳澤學妹  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="26" data-uniqueid="27"><td style="background-color: #ffff00; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Skull.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">SKULL</h5>
+龍司  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i>
+<i class="fas fa-star star-red had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="27" data-uniqueid="28"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Cress.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">克雷斯</h5>
+-  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="28" data-uniqueid="29"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Milla.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">蜜樂</h5>
+米拉  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="29" data-uniqueid="30"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Velvet.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">薇爾貝特</h5>
+貝姊  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr><tr data-index="30" data-uniqueid="31"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 200px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Yuri.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">由利</h5>
+-  </div>
+</div></td><td style="white-space: nowrap; text-align: left; width: 130px; "><i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had4"></i>
+<i class="fas fa-star star-red had5"></i></td><td style="text-align: center; width: 40px; ">-</td><td style="width: 40px; "><input class="form-control light-shadow" value="0" type="number" min="0" max="255"></td></tr></tbody></table></div>
+      <div class="fixed-table-footer"><table><thead><tr></tr></thead></table></div>
+      </div>
+      <div class="fixed-table-pagination" style="display: none;"></div>
+      </div><div class="clearfix"></div>
 
                                 <h4 class="pl-3 pt-4" id="select_star5_sp">斷章 / 任務升星角色</h4>
-                                <table id="sp_table" class="table table-bordered table-striped table-sm table-borderless"></table>
+                                <div class="bootstrap-table bootstrap4">
+      <div class="fixed-table-toolbar"></div>
+      
+      <div class="fixed-table-container" style="padding-bottom: 0px;">
+      <div class="fixed-table-header" style="display: none;"><table></table></div>
+      <div class="fixed-table-body">
+      <div class="fixed-table-loading table table-bordered table-striped table-sm table-borderless" style="top: 1px;">
+      <span class="loading-wrap">
+      <span class="loading-text">正在努力地載入牛棚，請稍候</span>
+      <span class="animation-wrap"><span class="animation-dot"></span></span>
+      </span>
+      </div>
+      <table id="sp_table" class="table table-bordered table-striped table-sm table-borderless"><thead class="thead-dark" style=""><tr><th style="width: 5px; " data-field="element"><div class="th-inner "></div><div class="fht-cell"></div></th><th style="width: 230px; " data-field="name"><div class="th-inner ">角色</div><div class="fht-cell"></div></th><th style="text-align: center; width: 40px; " data-field="had3"><div class="th-inner ">☆3</div><div class="fht-cell"></div></th><th style="text-align: center; width: 40px; " data-field="had4"><div class="th-inner ">☆4</div><div class="fht-cell"></div></th><th style="text-align: center; width: 40px; " data-field="had5"><div class="th-inner ">★5</div><div class="fht-cell"></div></th></tr></thead><tbody><tr data-index="0" data-uniqueid="1"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Miyu.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">米悠</h5>
+公主  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td></tr><tr data-index="1" data-uniqueid="2"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Ciel.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">西雅爾</h5>
+偽娘  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td></tr><tr data-index="2" data-uniqueid="3"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Bivette.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">碧薇特</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td></tr><tr data-index="3" data-uniqueid="4"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Bria.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">布利亞</h5>
+騎士槍  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had5" style="color:#aaa"></i></td></tr></tbody></table></div>
+      <div class="fixed-table-footer"><table><thead><tr></tr></thead></table></div>
+      </div>
+      <div class="fixed-table-pagination" style="display: none;"></div>
+      </div><div class="clearfix"></div>
 
                                 <h4 class="pl-3 pt-4" id="select_star4">四星角色</h4>
-                                <div class="" id="star4_toolbar">
+                                
+                                <div class="bootstrap-table bootstrap4">
+      <div class="fixed-table-toolbar"><div class="bs-bars float-right"><div class="" id="star4_toolbar">
                                     <div class="btn-group btn-group-sm" role="group" aria-label="Select all">
                                         <button type="button" class="btn" id="selectAllStar4Listed">
                                             <i class="fas fa-check-square"></i> 選擇全部
@@ -415,8 +1287,182 @@
                                         </button>
                                     </div>
 
-                                </div>
-                                <table id="star4_table" class="table table-bordered table-striped table-sm table-borderless"></table>
+                                </div></div></div>
+      
+      <div class="fixed-table-container" style="padding-bottom: 0px;">
+      <div class="fixed-table-header" style="display: none;"><table></table></div>
+      <div class="fixed-table-body">
+      <div class="fixed-table-loading table table-bordered table-striped table-sm table-borderless" style="top: 1px;">
+      <span class="loading-wrap">
+      <span class="loading-text">正在努力地載入牛棚，請稍候</span>
+      <span class="animation-wrap"><span class="animation-dot"></span></span>
+      </span>
+      </div>
+      <table id="star4_table" class="table table-bordered table-striped table-sm table-borderless"><thead class="thead-dark" style=""><tr><th style="width: 5px; " data-field="element"><div class="th-inner "></div><div class="fht-cell"></div></th><th style="width: 230px; " data-field="name"><div class="th-inner ">角色</div><div class="fht-cell"></div></th><th style="text-align: center; width: 40px; " data-field="had3"><div class="th-inner ">☆3</div><div class="fht-cell"></div></th><th style="text-align: center; width: 40px; " data-field="had4"><div class="th-inner ">☆4</div><div class="fht-cell"></div></th></tr></thead><tbody><tr data-index="0" data-uniqueid="1"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Prai.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">普萊</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="1" data-uniqueid="2"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Krervo.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">克利霍</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="2" data-uniqueid="3"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Pom.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">波姆</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="3" data-uniqueid="4"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Lele.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">蕾蕾</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="4" data-uniqueid="5"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Parisa.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">帕莉莎</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="5" data-uniqueid="7"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Raven.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">雷文</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td></tr><tr data-index="6" data-uniqueid="8"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Sevyn.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">賽溫</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="7" data-uniqueid="9"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Breeno.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">布里諾</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="8" data-uniqueid="10"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Soira.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">蘇依萊</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="9" data-uniqueid="13"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Miranda.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">米蘭達</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="10" data-uniqueid="14"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Nomar.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">諾馬爾 </h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="11" data-uniqueid="15"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Denny.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">丹尼</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td></tr><tr data-index="12" data-uniqueid="16"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Yio.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">伊俄</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="13" data-uniqueid="17"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Rovella.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">羅貝拉</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td></tr><tr data-index="14" data-uniqueid="18"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Rufus.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">洛福斯</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="15" data-uniqueid="19"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/May.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">玫</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td></tr><tr data-index="16" data-uniqueid="20"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Chiyo.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">千代</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="17" data-uniqueid="21"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Komachi.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">小町</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td></tr><tr data-index="18" data-uniqueid="22"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Otoha.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">乙葉</h5>
+貓神大人  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td></tr><tr data-index="19" data-uniqueid="23"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Lingli.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">林麗</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="20" data-uniqueid="24"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Foran.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">芙朗</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="21" data-uniqueid="25"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Darunis.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">達爾尼思</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td></tr><tr data-index="22" data-uniqueid="26"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Myron.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">繆倫</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td></tr><tr data-index="23" data-uniqueid="27"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Benedict.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">貝內迪特</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="24" data-uniqueid="28"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Cyuca.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">喬卡</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="25" data-uniqueid="29"><td style="background-color: #479eff; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Nero.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">尼洛</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="26" data-uniqueid="30"><td style="background-color: #ff0500; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Samora.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">薩摩拉</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="27" data-uniqueid="32"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Lovinia.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">羅維娜</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="28" data-uniqueid="33"><td style="background-color: #909090; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Erina.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">艾莉娜</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="29" data-uniqueid="34"><td style="background-color: #45c145; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Yazuki.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">耶月</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="30" data-uniqueid="35"><td style="background-color: #909090; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Nonold.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">諾諾德</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:red"></i></td></tr><tr data-index="31" data-uniqueid="36"><td style="background-color: #d7a186; width: 5px; "></td><td style="width: 230px; "><div class="media">
+<div class="character-image mr-1">  <img src="./images/characters/Zilva.jpg" class="icon" width="50">
+</div>  <div class="media-body">
+    <h5 class="mt-0">茲爾巴</h5>
+-  </div>
+</div></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had3" style="color:red"></i></td><td style="text-align: center; width: 40px; "><i class="fa fa-heart had4" style="color:#aaa"></i></td></tr></tbody></table></div>
+      <div class="fixed-table-footer"><table><thead><tr></tr></thead></table></div>
+      </div>
+      <div class="fixed-table-pagination" style="display: none;"></div>
+      </div><div class="clearfix"></div>
 
                             </div>
 
@@ -553,7 +1599,7 @@
                     <div class="col-12">
                         <button type="button" class="btn btn-success btn-block" id="gen">在新視窗開啟</button>
                         <button type="button" class="btn btn-info btn-block copybtn" id="copytable" data-clipboard-target="#editor1">複製到剪貼簿</button>
-                        <div class="result-editor" id="editor1" contentEditable="false"></div>
+                        <div class="result-editor" id="editor1" contenteditable="false"></div>
                     </div>
                 </div>
             </div>
@@ -581,7 +1627,7 @@
                     <div class="col-12">
                         <button type="button" class="btn btn-success btn-block" id="gentext">在新視窗開啟</button>
                         <button type="button" class="btn btn-info btn-block copybtn" id="copytext" data-clipboard-target="#editor2">複製到剪貼簿</button>
-                        <div class="result-editor" id="editor2" contentEditable="false"></div>
+                        <div class="result-editor" id="editor2" contenteditable="false"></div>
                     </div>
                 </div>
             </div>
@@ -598,7 +1644,7 @@
                                 <span class="input-group-text" id="">圖片</span>
                             </div>
                             <select class="custom-select" id="imageSize">
-                                <option value="0.65" selected>巴哈姆特用 2MB 圖片</option>
+                                <option value="0.65" selected="">巴哈姆特用 2MB 圖片</option>
                                 <option value="1">原始圖片</option>
                             </select>
                             <div class="input-group-append">
@@ -623,7 +1669,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-sm-12 col-md-10 col-lg-6">
-                        <img src="images/otoha_bar1.png" alt="help page top banner" class="img-fluid"/>
+                        <img src="images/otoha_bar1.png" alt="help page top banner" class="img-fluid">
                         <h1>貓神健檢小幫手</h1>
                         <p>
                             貓神健檢小幫手是國際版穿越時空的貓隊伍健檢表格生產器，主要為巴哈姆特穿越時空的貓哈拉區版而設，目的為幫助快速建立隊伍健檢表格。
@@ -673,13 +1719,13 @@
                                     <div class="card-body">
                                         <h5 class="card-title">關於作者</h5>
                                         <p class="card-text">作者是一位很喜歡乙葉大人的時空貓玩家，同時也是會在巴哈姆特穿越時空的貓哈拉區版出沒，如有任何意見可於巴哈貼文中作出回應，請多多指教。</p>
-                                        <a href="https://forum.gamer.com.tw/C.php?bsn=29220&snA=3877" class="btn btn-primary" target="_blank">巴哈時空貓版 - 貓神健檢小幫手</a>
+                                        <a href="https://forum.gamer.com.tw/C.php?bsn=29220&amp;snA=3877" class="btn btn-primary" target="_blank">巴哈時空貓版 - 貓神健檢小幫手</a>
                                         <p class="card-text"><small class="text-muted">喜歡乙葉大人的夜霧</small></p>
                                         <p class="card-text"><small class="text-muted"></small></p>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="./images/otoha.jpg" alt="otoha" class="card-img" />
+                                    <img src="./images/otoha.jpg" alt="otoha" class="card-img">
                                 </div>
                             </div>
                         </div>
@@ -694,5 +1740,6 @@
 
     </div>
 </section>
-</body>
-</html>
+
+
+</body></html>
